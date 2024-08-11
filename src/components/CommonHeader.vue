@@ -3,10 +3,10 @@
         <div class="l-content">
             <el-button style="margin-right: 20px;" @click="handleMenu" icon="el-icon-menu" size="mini"></el-button>
             <!-- 面包屑 -->
-            <el-breadcrumb separator="/">
+            <!-- <el-breadcrumb separator="/">
                 <el-breadcrumb-item v-for="item in tags" :key="item.path" :to="{ path: item.path }"> {{ item.label }}
                 </el-breadcrumb-item>
-            </el-breadcrumb>
+            </el-breadcrumb> -->
         </div>
         <div class="r-content">
             <el-dropdown @command="handleClick">
@@ -31,7 +31,7 @@ export default {
     },
     methods: {
         handleMenu() {
-            this.$store.commit('collapseMenu')
+            this.$store.commit('collapseMenu')//collapse
         },
         handleClick(command) {
             if (command === 'cancel') {

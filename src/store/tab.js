@@ -5,13 +5,13 @@ export default{
         tabsList: [
             {
                 path: '/',
-                name: 'home',
-                label: '首页',
-                icon: 's-home',
-                url: 'Home/Home'
+                name: 'panel',
+                label: '产线定制',
+                // icon: 's-videoandthmonitor',
+                url: 'panel/panel'
             }
         ],   // 面包屑数据
-        menu: []
+        menu: [],
     },
     mutations:{
         // 修改菜单展开收起的方法
@@ -22,7 +22,7 @@ export default{
         selectMenu(state, val){
             console.log(val, 'val')
             // 判断添加数据是否为首页
-            if (val.name !== 'home'){
+            if (val.name !== 'panel'){
                 const index = state.tabsList.findIndex(item => item.name === val.name)
                 // 如果不存在
                 if (index === -1){

@@ -5,8 +5,6 @@ export const getData = () => {
     // 返回一个promise对象
     return http.get('/home/getData')
 }
-
-
 export const getUser = (params) => {
     // 返回用户列表
     return http.get('/user/getUser', params)
@@ -28,3 +26,14 @@ export const delUser = (data) => {
  export const getMenu = (data) => {
     return http.post('/permission/getMenu', data)
  }
+ 
+ export const getOrder = (data) => {
+    // 返回次序列表
+    return http.post('/home/getOrder', data)
+}
+
+export const getgrafana = ()=>{
+
+   return http.post('')
+
+}

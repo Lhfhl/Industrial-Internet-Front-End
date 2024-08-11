@@ -131,7 +131,7 @@ export default {
         // 提交用户表单
         submit() {
             this.$refs.form.validate((valid) => {
-                // console.log(valid, 'valid')
+                 console.log(valid, 'valid')
                 if (valid) {
                     // 后续对表单数据的处理
                     if (this.modalType === 0) {

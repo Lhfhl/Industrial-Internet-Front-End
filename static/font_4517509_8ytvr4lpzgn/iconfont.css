@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4517509 */
+  src: url('iconfont.woff2?t=1713703137531') format('woff2'),
+       url('iconfont.woff?t=1713703137531') format('woff'),
+       url('iconfont.ttf?t=1713703137531') format('truetype');
+}
+
+@font-face {
+  font-family: "iconfont"; /* Project id 4517549 */
+  src: url('iconfont_ruku.woff2?t=1713704887616') format('woff2'),
+       url('iconfont_ruku.woff?t=1713704887616') format('woff'),
+       url('iconfont_ruku.ttf?t=1713704887616') format('truetype');
+}
+
+@font-face {
+  font-family: "iconfont"; /* Project id 4517549 */
+  src: url('iconfont_parameter.woff2?t=1714309649776') format('woff2'),
+       url('iconfont_parameter.woff?t=1714309649776') format('woff'),
+       url('iconfont_parameter.ttf?t=1714309649776') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 32px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* 组装 */
+.icon-zuzhuangchaixie:before {
+  content: "\e6e2";
+}
+/* 仓库库存 */
+.icon-cangku_kucun_o:before {
+  content: "\eb51";
+}
+/* 入库-1,用不了 */
+.icon-ruku:before {
+  content: "\e643";
+}
+/* 车床 */
+.icon-chechuang:before {
+  content: "\e68b";
+}
+/* 铣床 */
+.icon-xianchuang:before {
+  content: "\e68c";
+}
+/* 订单出库 */
+.icon-dingdanchuku:before {
+  content: "\e600";
+}
+/* 检测实验 */
+.icon-jianceshiyan:before {
+  content: "\e60c";
+}
+/* 车间 */
+.icon-chejian:before {
+  content: "\e612";
+}
+/* 入库-2 */
+.icon-icon_function_kuaisuruku:before {
+  content: "\e893";
+}
+
+/* 参数设置 */
+.icon-params:before {
+  content: "\e617";
+}

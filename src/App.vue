@@ -9,8 +9,6 @@
 </template>
 
 <script>
-
-
 export default {
   name: 'App'
 }
@@ -18,8 +16,15 @@ export default {
 
 <!-- 对vue模板的默认样式进行清除 -->
 <style lang="less">
-html,
-body,
+
+html {
+  height: 100%;
+  margin: 0;
+
+}
+body{
+
+}
 h3,
 p {
   margin: 0;

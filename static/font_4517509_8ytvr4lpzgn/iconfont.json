@@ -1,0 +1,65 @@
+{
+  "id": "4517509",
+  "name": "vue",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3132309",
+      "name": "组装拆卸",
+      "font_class": "zuzhuangchaixie",
+      "unicode": "e6e2",
+      "unicode_decimal": 59106
+    },
+    {
+      "icon_id": "5387772",
+      "name": "仓库_库存_o",
+      "font_class": "cangku_kucun_o",
+      "unicode": "eb51",
+      "unicode_decimal": 60241
+    },
+    {
+      "icon_id": "9863858",
+      "name": "Input",
+      "font_class": "ruku",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "15002317",
+      "name": "车床",
+      "font_class": "chechuang",
+      "unicode": "e68b",
+      "unicode_decimal": 59019
+    },
+    {
+      "icon_id": "15002323",
+      "name": "铣床",
+      "font_class": "xianchuang",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "21611680",
+      "name": "订单出库",
+      "font_class": "dingdanchuku",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "36284791",
+      "name": "检测试验",
+      "font_class": "jianceshiyan",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "8878593",
+      "name": "车间",
+      "font_class": "chejian",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    }
+  ]
+}
